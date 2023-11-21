@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cronômetro</title>
+</head>
+<body>
+    <main></main>
+    <h1>Cronômetro</h1>
+
+    <!-- Vou criar um div nele vai ter uma id que se chamar cronometro e h2 que se chama timer -->
+    <div id="cronometro">
+        <h2 id="timer">
+            00:00:00:00
+        </h2>
+
+    <!-- Vou criar uma id onde vai ter os botões do app -->
+        <div id="actions">
+            <button id="reset">
+                <i class="fa-solid fa-rotate-right"></i>
+            </button>
+
+            <button id="power" action="start">
+                <i class="fa-solid fa-play"></i>
+            </button>
+
+            <button id="mark">
+                <i class="fa-solid fa-flag"></i>
+            </button>
+        </div>
+
+        <div id="marks-list">
+        </div>
+    </div>
+
+    <script src="javascript/script.js"></script>
+
+</body>
+</html>
